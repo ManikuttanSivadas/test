@@ -1,15 +1,11 @@
-import './App.css';
+import "./App.css";
+import { ReducerTest } from "./Components/ReducerTest";
 
 function App() {
-
-  const number = [1,2,3,4,5,9]
-  const sum = number.reduce((acc,cum)=>{  console.log(acc);
-  console.log('cum',cum)
-   return acc+cum},0)
   return (
     <div className="App">
       <header className="App-header">
-       <h1>{sum}</h1>
+        <ReducerTest />
       </header>
     </div>
   );
